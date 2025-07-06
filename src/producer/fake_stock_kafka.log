@@ -1,0 +1,265 @@
+2025-07-05 23:13:23,701 - INFO - Starting Fake Stock Data Generator for Kafka Testing
+2025-07-05 23:13:23,701 - INFO - Start time: 2025-07-05 23:13:23.701686
+2025-07-05 23:13:23,701 - INFO - Symbols: ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'TSLA', 'NVDA', 'META', 'NFLX', 'RBLX', 'COIN']
+2025-07-05 23:13:23,701 - INFO - Kafka topic: polygon_stocks
+2025-07-05 23:13:23,701 - INFO - Update interval: 1 seconds
+2025-07-05 23:13:23,713 - INFO - Starting prices:
+2025-07-05 23:13:23,713 - INFO -   AAPL: $175.00
+2025-07-05 23:13:23,713 - INFO -   MSFT: $380.00
+2025-07-05 23:13:23,714 - INFO -   GOOGL: $135.00
+2025-07-05 23:13:23,714 - INFO -   AMZN: $145.00
+2025-07-05 23:13:23,714 - INFO -   TSLA: $250.00
+2025-07-05 23:13:23,715 - INFO -   NVDA: $900.00
+2025-07-05 23:13:23,715 - INFO -   META: $320.00
+2025-07-05 23:13:23,715 - INFO -   NFLX: $450.00
+2025-07-05 23:13:23,716 - INFO -   RBLX: $35.00
+2025-07-05 23:13:23,716 - INFO -   COIN: $85.00
+2025-07-05 23:13:23,716 - INFO - Testing Kafka connection...
+2025-07-05 23:13:23,739 - INFO - Successfully created Kafka producer
+2025-07-05 23:13:24,459 - INFO - Press Ctrl+C to stop...
+2025-07-05 23:13:24,460 - INFO - Starting fake market data generation...
+2025-07-05 23:13:24,460 - INFO - Generated aggregate for AAPL: $177.52 (O:175.00 H:177.86 L:174.17 C:177.52)
+2025-07-05 23:13:24,461 - INFO - Generated aggregate for MSFT: $378.90 (O:380.00 H:380.35 L:378.90 C:378.90)
+2025-07-05 23:13:24,461 - INFO - Generated aggregate for GOOGL: $135.59 (O:135.00 H:135.75 L:134.92 C:135.59)
+2025-07-05 23:13:24,462 - INFO - Generated aggregate for AMZN: $143.82 (O:145.00 H:145.56 L:143.36 C:143.82)
+2025-07-05 23:13:24,462 - INFO - Generated aggregate for TSLA: $252.73 (O:250.00 H:253.76 L:249.63 C:252.73)
+2025-07-05 23:13:24,462 - INFO - Generated aggregate for NVDA: $883.96 (O:900.00 H:905.07 L:880.87 C:883.96)
+2025-07-05 23:13:24,464 - INFO - Generated aggregate for META: $316.31 (O:320.00 H:321.17 L:316.14 C:316.31)
+2025-07-05 23:13:24,464 - INFO - Generated aggregate for NFLX: $442.25 (O:450.00 H:450.40 L:440.37 C:442.25)
+2025-07-05 23:13:24,464 - INFO - Generated aggregate for RBLX: $35.73 (O:35.00 H:36.00 L:34.66 C:35.73)
+2025-07-05 23:13:24,464 - INFO - Generated aggregate for COIN: $86.09 (O:85.00 H:86.63 L:84.80 C:86.09)
+2025-07-05 23:13:25,856 - INFO - Generated aggregate for AAPL: $179.40 (O:177.52 H:179.87 L:176.89 C:179.40)
+2025-07-05 23:13:25,857 - INFO - Generated aggregate for MSFT: $380.81 (O:378.90 H:381.31 L:378.78 C:380.81)
+2025-07-05 23:13:25,857 - INFO - Generated aggregate for GOOGL: $136.01 (O:135.59 H:136.13 L:135.46 C:136.01)
+2025-07-05 23:13:25,858 - INFO - Generated aggregate for AMZN: $143.70 (O:143.82 H:143.85 L:143.70 C:143.70)
+2025-07-05 23:13:25,858 - INFO - Generated aggregate for TSLA: $252.90 (O:252.73 H:252.96 L:252.67 C:252.90)
+2025-07-05 23:13:25,859 - INFO - Generated aggregate for NVDA: $900.58 (O:883.96 H:907.08 L:877.02 C:900.58)
+2025-07-05 23:13:25,859 - INFO - Generated aggregate for META: $309.22 (O:316.31 H:316.59 L:307.17 C:309.22)
+2025-07-05 23:13:25,859 - INFO - Generated aggregate for NFLX: $438.25 (O:442.25 H:443.44 L:436.97 C:438.25)
+2025-07-05 23:13:25,860 - INFO - Generated aggregate for RBLX: $36.79 (O:35.73 H:37.24 L:35.72 C:36.79)
+2025-07-05 23:13:25,860 - INFO - Generated aggregate for COIN: $89.22 (O:86.09 H:89.30 L:84.60 C:89.22)
+2025-07-05 23:13:25,861 - INFO - Stats: Generated 20 messages, Published 20 updates
+2025-07-05 23:13:25,861 - INFO - Kafka: 11 success, 0 errors
+2025-07-05 23:13:25,862 - INFO - Current prices: [('AAPL', '$179.40'), ('MSFT', '$380.81'), ('GOOGL', '$136.01')]
+2025-07-05 23:13:26,867 - INFO - Generated aggregate for AAPL: $178.82 (O:179.40 H:179.46 L:178.62 C:178.82)
+2025-07-05 23:13:26,867 - INFO - Generated aggregate for MSFT: $380.81 (O:380.81 H:380.82 L:380.81 C:380.81)
+2025-07-05 23:13:26,867 - INFO - Generated aggregate for GOOGL: $138.57 (O:136.01 H:139.38 L:135.38 C:138.57)
+2025-07-05 23:13:26,867 - INFO - Generated aggregate for AMZN: $144.90 (O:143.70 H:144.97 L:143.46 C:144.90)
+2025-07-05 23:13:26,867 - INFO - Generated aggregate for TSLA: $253.66 (O:252.90 H:253.92 L:252.77 C:253.66)
+2025-07-05 23:13:26,867 - INFO - Generated aggregate for NVDA: $914.34 (O:900.58 H:919.17 L:895.37 C:914.34)
+2025-07-05 23:13:26,867 - INFO - Generated aggregate for META: $308.22 (O:309.22 H:309.35 L:307.82 C:308.22)
+2025-07-05 23:13:26,867 - INFO - Generated aggregate for NFLX: $442.41 (O:438.25 H:442.51 L:436.23 C:442.41)
+2025-07-05 23:13:26,867 - INFO - Generated aggregate for RBLX: $36.17 (O:36.79 H:36.83 L:36.06 C:36.17)
+2025-07-05 23:13:26,867 - INFO - Generated aggregate for COIN: $92.85 (O:89.22 H:93.50 L:88.28 C:92.85)
+2025-07-05 23:13:28,551 - INFO - Generated aggregate for AAPL: $179.21 (O:178.82 H:179.29 L:178.77 C:179.21)
+2025-07-05 23:13:28,552 - INFO - Generated aggregate for MSFT: $381.40 (O:380.81 H:381.68 L:380.79 C:381.40)
+2025-07-05 23:13:28,553 - INFO - Generated aggregate for GOOGL: $139.21 (O:138.57 H:139.45 L:138.38 C:139.21)
+2025-07-05 23:13:28,554 - INFO - Generated aggregate for AMZN: $147.66 (O:144.90 H:148.89 L:144.11 C:147.66)
+2025-07-05 23:13:28,554 - INFO - Generated aggregate for TSLA: $251.35 (O:253.66 H:254.57 L:250.28 C:251.35)
+2025-07-05 23:13:28,555 - INFO - Generated aggregate for NVDA: $893.56 (O:914.34 H:921.15 L:890.80 C:893.56)
+2025-07-05 23:13:28,556 - INFO - Generated aggregate for META: $311.63 (O:308.22 H:312.10 L:306.86 C:311.63)
+2025-07-05 23:13:28,557 - INFO - Generated aggregate for NFLX: $441.44 (O:442.41 H:442.43 L:441.41 C:441.44)
+2025-07-05 23:13:28,557 - INFO - Generated aggregate for RBLX: $36.84 (O:36.17 H:36.92 L:36.00 C:36.84)
+2025-07-05 23:13:28,558 - INFO - Generated aggregate for COIN: $95.40 (O:92.85 H:95.41 L:91.72 C:95.40)
+2025-07-05 23:13:28,560 - INFO - Stats: Generated 40 messages, Published 40 updates
+2025-07-05 23:13:28,560 - INFO - Kafka: 31 success, 0 errors
+2025-07-05 23:13:28,561 - INFO - Current prices: [('AAPL', '$179.21'), ('MSFT', '$381.40'), ('GOOGL', '$139.21')]
+2025-07-05 23:13:30,679 - INFO - Generated aggregate for AAPL: $178.61 (O:179.21 H:179.26 L:178.36 C:178.61)
+2025-07-05 23:13:30,679 - INFO - Generated aggregate for MSFT: $378.40 (O:381.40 H:382.43 L:377.47 C:378.40)
+2025-07-05 23:13:30,680 - INFO - Generated aggregate for GOOGL: $137.43 (O:139.21 H:139.69 L:137.16 C:137.43)
+2025-07-05 23:13:30,680 - INFO - Generated aggregate for AMZN: $146.95 (O:147.66 H:147.93 L:146.94 C:146.95)
+2025-07-05 23:13:30,681 - INFO - Generated aggregate for TSLA: $260.30 (O:251.35 H:264.36 L:247.47 C:260.30)
+2025-07-05 23:13:30,681 - INFO - Generated aggregate for NVDA: $893.94 (O:893.56 H:893.96 L:893.45 C:893.94)
+2025-07-05 23:13:30,682 - INFO - Generated aggregate for META: $309.98 (O:311.63 H:311.79 L:309.49 C:309.98)
+2025-07-05 23:13:30,682 - INFO - Generated aggregate for NFLX: $431.39 (O:441.44 H:444.71 L:429.74 C:431.39)
+2025-07-05 23:13:30,682 - INFO - Generated aggregate for RBLX: $37.84 (O:36.84 H:38.32 L:36.66 C:37.84)
+2025-07-05 23:13:30,683 - INFO - Generated aggregate for COIN: $93.71 (O:95.40 H:95.90 L:93.46 C:93.71)
+2025-07-05 23:13:32,743 - INFO - Successfully delivered 50 messages to Kafka
+2025-07-05 23:13:32,744 - INFO - Generated aggregate for AAPL: $179.88 (O:178.61 H:180.49 L:178.47 C:179.88)
+2025-07-05 23:13:32,744 - INFO - Generated aggregate for MSFT: $374.94 (O:378.40 H:379.11 L:373.99 C:374.94)
+2025-07-05 23:13:32,745 - INFO - Generated aggregate for GOOGL: $136.12 (O:137.43 H:137.51 L:135.89 C:136.12)
+2025-07-05 23:13:32,746 - INFO - Generated aggregate for AMZN: $146.92 (O:146.95 H:146.96 L:146.91 C:146.92)
+2025-07-05 23:13:32,746 - INFO - Generated aggregate for TSLA: $254.88 (O:260.30 H:261.62 L:254.69 C:254.88)
+2025-07-05 23:13:32,747 - INFO - Generated aggregate for NVDA: $885.85 (O:893.94 H:897.83 L:883.90 C:885.85)
+2025-07-05 23:13:32,747 - INFO - Generated aggregate for META: $315.71 (O:309.98 H:315.75 L:309.74 C:315.71)
+2025-07-05 23:13:32,748 - INFO - Generated aggregate for NFLX: $429.14 (O:431.39 H:431.78 L:428.99 C:429.14)
+2025-07-05 23:13:32,748 - INFO - Generated aggregate for RBLX: $36.61 (O:37.84 H:38.22 L:36.38 C:36.61)
+2025-07-05 23:13:32,749 - INFO - Generated aggregate for COIN: $93.58 (O:93.71 H:93.74 L:93.52 C:93.58)
+2025-07-05 23:13:32,749 - INFO - Stats: Generated 60 messages, Published 60 updates
+2025-07-05 23:13:32,750 - INFO - Kafka: 51 success, 0 errors
+2025-07-05 23:13:32,750 - INFO - Current prices: [('AAPL', '$179.88'), ('MSFT', '$374.94'), ('GOOGL', '$136.12')]
+2025-07-05 23:13:33,992 - INFO - Generated aggregate for AAPL: $179.27 (O:179.88 H:180.16 L:179.14 C:179.27)
+2025-07-05 23:13:33,993 - INFO - Generated aggregate for MSFT: $374.15 (O:374.94 H:375.16 L:374.11 C:374.15)
+2025-07-05 23:13:33,994 - INFO - Generated aggregate for GOOGL: $135.45 (O:136.12 H:136.21 L:135.29 C:135.45)
+2025-07-05 23:13:33,995 - INFO - Generated aggregate for AMZN: $148.63 (O:146.92 H:149.06 L:146.71 C:148.63)
+2025-07-05 23:13:33,996 - INFO - Generated aggregate for TSLA: $256.89 (O:254.88 H:257.62 L:254.87 C:256.89)
+2025-07-05 23:13:33,996 - INFO - Generated aggregate for NVDA: $885.09 (O:885.85 H:886.08 L:884.73 C:885.09)
+2025-07-05 23:13:33,997 - INFO - Generated aggregate for META: $316.51 (O:315.71 H:316.79 L:315.44 C:316.51)
+2025-07-05 23:13:33,998 - INFO - Generated aggregate for NFLX: $425.26 (O:429.14 H:431.06 L:424.86 C:425.26)
+2025-07-05 23:13:33,999 - INFO - Generated aggregate for RBLX: $37.58 (O:36.61 H:38.00 L:36.27 C:37.58)
+2025-07-05 23:13:34,000 - INFO - Generated aggregate for COIN: $93.31 (O:93.58 H:93.67 L:93.22 C:93.31)
+2025-07-05 23:13:35,451 - INFO - Generated aggregate for AAPL: $179.38 (O:179.27 H:179.39 L:179.24 C:179.38)
+2025-07-05 23:13:35,452 - INFO - Generated aggregate for MSFT: $375.05 (O:374.15 H:375.14 L:374.04 C:375.05)
+2025-07-05 23:13:35,453 - INFO - Generated aggregate for GOOGL: $133.66 (O:135.45 H:135.90 L:133.05 C:133.66)
+2025-07-05 23:13:35,455 - INFO - Generated aggregate for AMZN: $150.28 (O:148.63 H:151.07 L:148.05 C:150.28)
+2025-07-05 23:13:35,457 - INFO - Generated aggregate for TSLA: $263.02 (O:256.89 H:263.53 L:255.99 C:263.02)
+2025-07-05 23:13:35,459 - INFO - Generated aggregate for NVDA: $894.68 (O:885.09 H:894.79 L:881.63 C:894.68)
+2025-07-05 23:13:35,459 - INFO - Generated aggregate for META: $322.81 (O:316.51 H:323.99 L:315.01 C:322.81)
+2025-07-05 23:13:35,461 - INFO - Generated aggregate for NFLX: $425.54 (O:425.26 H:425.66 L:425.15 C:425.54)
+2025-07-05 23:13:35,462 - INFO - Generated aggregate for RBLX: $37.58 (O:37.58 H:37.59 L:37.58 C:37.58)
+2025-07-05 23:13:35,463 - INFO - Generated aggregate for COIN: $93.00 (O:93.31 H:93.42 L:92.94 C:93.00)
+2025-07-05 23:13:35,464 - INFO - Stats: Generated 80 messages, Published 80 updates
+2025-07-05 23:13:35,465 - INFO - Kafka: 71 success, 0 errors
+2025-07-05 23:13:35,465 - INFO - Current prices: [('AAPL', '$179.38'), ('MSFT', '$375.05'), ('GOOGL', '$133.66')]
+2025-07-05 23:13:36,681 - INFO - Generated aggregate for AAPL: $178.90 (O:179.38 H:179.46 L:178.81 C:178.90)
+2025-07-05 23:13:36,682 - INFO - Generated aggregate for MSFT: $373.68 (O:375.05 H:375.34 L:373.12 C:373.68)
+2025-07-05 23:13:36,683 - INFO - Generated aggregate for GOOGL: $132.29 (O:133.66 H:134.33 L:132.14 C:132.29)
+2025-07-05 23:13:36,684 - INFO - Generated aggregate for AMZN: $148.84 (O:150.28 H:150.49 L:148.54 C:148.84)
+2025-07-05 23:13:36,685 - INFO - Generated aggregate for TSLA: $258.65 (O:263.02 H:264.33 L:257.77 C:258.65)
+2025-07-05 23:13:36,686 - INFO - Generated aggregate for NVDA: $877.80 (O:894.68 H:900.78 L:873.82 C:877.80)
+2025-07-05 23:13:36,687 - INFO - Generated aggregate for META: $323.57 (O:322.81 H:323.89 L:322.80 C:323.57)
+2025-07-05 23:13:36,688 - INFO - Generated aggregate for NFLX: $426.13 (O:425.54 H:426.19 L:425.29 C:426.13)
+2025-07-05 23:13:36,689 - INFO - Generated aggregate for RBLX: $37.66 (O:37.58 H:37.70 L:37.58 C:37.66)
+2025-07-05 23:13:36,689 - INFO - Generated aggregate for COIN: $92.65 (O:93.00 H:93.05 L:92.49 C:92.65)
+2025-07-05 23:13:38,727 - INFO - Generated aggregate for AAPL: $178.66 (O:178.90 H:178.98 L:178.56 C:178.66)
+2025-07-05 23:13:38,728 - INFO - Generated aggregate for MSFT: $373.76 (O:373.68 H:373.76 L:373.65 C:373.76)
+2025-07-05 23:13:38,729 - INFO - Generated aggregate for GOOGL: $131.68 (O:132.29 H:132.59 L:131.38 C:131.68)
+2025-07-05 23:13:38,730 - INFO - Generated aggregate for AMZN: $148.49 (O:148.84 H:148.96 L:148.35 C:148.49)
+2025-07-05 23:13:38,731 - INFO - Generated aggregate for TSLA: $257.66 (O:258.65 H:258.74 L:257.34 C:257.66)
+2025-07-05 23:13:38,732 - INFO - Generated aggregate for NVDA: $872.13 (O:877.80 H:877.88 L:871.57 C:872.13)
+2025-07-05 23:13:38,732 - INFO - Generated aggregate for META: $316.65 (O:323.57 H:325.13 L:313.81 C:316.65)
+2025-07-05 23:13:38,734 - INFO - Generated aggregate for NFLX: $426.35 (O:426.13 H:426.39 L:426.08 C:426.35)
+2025-07-05 23:13:38,735 - INFO - Generated aggregate for RBLX: $37.26 (O:37.66 H:37.78 L:37.08 C:37.26)
+2025-07-05 23:13:38,735 - INFO - Generated aggregate for COIN: $91.53 (O:92.65 H:92.81 L:91.25 C:91.53)
+2025-07-05 23:13:38,736 - INFO - Stats: Generated 100 messages, Published 100 updates
+2025-07-05 23:13:38,736 - INFO - Kafka: 91 success, 0 errors
+2025-07-05 23:13:38,737 - INFO - Current prices: [('AAPL', '$178.66'), ('MSFT', '$373.76'), ('GOOGL', '$131.68')]
+2025-07-05 23:13:40,687 - INFO - Successfully delivered 100 messages to Kafka
+2025-07-05 23:13:40,687 - INFO - Generated aggregate for AAPL: $180.03 (O:178.66 H:180.25 L:178.14 C:180.03)
+2025-07-05 23:13:40,688 - INFO - Generated aggregate for MSFT: $375.96 (O:373.76 H:376.69 L:372.93 C:375.96)
+2025-07-05 23:13:40,688 - INFO - Generated aggregate for GOOGL: $132.26 (O:131.68 H:132.41 L:131.62 C:132.26)
+2025-07-05 23:13:40,689 - INFO - Generated aggregate for AMZN: $149.03 (O:148.49 H:149.14 L:148.32 C:149.03)
+2025-07-05 23:13:40,689 - INFO - Generated aggregate for TSLA: $265.19 (O:257.66 H:266.64 L:255.73 C:265.19)
+2025-07-05 23:13:40,689 - INFO - Generated aggregate for NVDA: $855.48 (O:872.13 H:879.78 L:852.20 C:855.48)
+2025-07-05 23:13:40,690 - INFO - Generated aggregate for META: $318.79 (O:316.65 H:319.44 L:316.44 C:318.79)
+2025-07-05 23:13:40,690 - INFO - Generated aggregate for NFLX: $423.47 (O:426.35 H:427.54 L:422.75 C:423.47)
+2025-07-05 23:13:40,691 - INFO - Generated aggregate for RBLX: $36.22 (O:37.26 H:37.35 L:35.86 C:36.22)
+2025-07-05 23:13:40,691 - INFO - Generated aggregate for COIN: $86.90 (O:91.53 H:91.77 L:85.14 C:86.90)
+2025-07-05 23:13:42,031 - INFO - Generated aggregate for AAPL: $180.66 (O:180.03 H:180.73 L:179.94 C:180.66)
+2025-07-05 23:13:42,032 - INFO - Generated aggregate for MSFT: $376.88 (O:375.96 H:377.04 L:375.81 C:376.88)
+2025-07-05 23:13:42,032 - INFO - Generated aggregate for GOOGL: $132.09 (O:132.26 H:132.34 L:132.03 C:132.09)
+2025-07-05 23:13:42,032 - INFO - Generated aggregate for AMZN: $148.17 (O:149.03 H:149.33 L:148.05 C:148.17)
+2025-07-05 23:13:42,033 - INFO - Generated aggregate for TSLA: $267.33 (O:265.19 H:267.87 L:264.98 C:267.33)
+2025-07-05 23:13:42,033 - INFO - Generated aggregate for NVDA: $857.73 (O:855.48 H:857.73 L:854.64 C:857.73)
+2025-07-05 23:13:42,033 - INFO - Generated aggregate for META: $319.23 (O:318.79 H:319.38 L:318.69 C:319.23)
+2025-07-05 23:13:42,035 - INFO - Generated aggregate for NFLX: $415.61 (O:423.47 H:423.61 L:412.50 C:415.61)
+2025-07-05 23:13:42,035 - INFO - Generated aggregate for RBLX: $37.44 (O:36.22 H:37.67 L:35.62 C:37.44)
+2025-07-05 23:13:42,036 - INFO - Generated aggregate for COIN: $85.77 (O:86.90 H:86.98 L:85.49 C:85.77)
+2025-07-05 23:13:42,036 - INFO - Stats: Generated 120 messages, Published 120 updates
+2025-07-05 23:13:42,036 - INFO - Kafka: 111 success, 0 errors
+2025-07-05 23:13:42,037 - INFO - Current prices: [('AAPL', '$180.66'), ('MSFT', '$376.88'), ('GOOGL', '$132.09')]
+2025-07-05 23:13:43,748 - INFO - Generated aggregate for AAPL: $180.05 (O:180.66 H:180.86 L:179.76 C:180.05)
+2025-07-05 23:13:43,748 - INFO - Generated aggregate for MSFT: $377.33 (O:376.88 H:377.49 L:376.87 C:377.33)
+2025-07-05 23:13:43,748 - INFO - Generated aggregate for GOOGL: $132.59 (O:132.09 H:132.69 L:131.96 C:132.59)
+2025-07-05 23:13:43,748 - INFO - Generated aggregate for AMZN: $148.88 (O:148.17 H:149.16 L:148.02 C:148.88)
+2025-07-05 23:13:43,748 - INFO - Generated aggregate for TSLA: $264.15 (O:267.33 H:268.54 L:263.00 C:264.15)
+2025-07-05 23:13:43,748 - INFO - Generated aggregate for NVDA: $846.79 (O:857.73 H:859.06 L:842.17 C:846.79)
+2025-07-05 23:13:43,751 - INFO - Generated aggregate for META: $320.66 (O:319.23 H:320.86 L:318.60 C:320.66)
+2025-07-05 23:13:43,751 - INFO - Generated aggregate for NFLX: $420.37 (O:415.61 H:421.71 L:414.60 C:420.37)
+2025-07-05 23:13:43,751 - INFO - Generated aggregate for RBLX: $37.16 (O:37.44 H:37.57 L:37.08 C:37.16)
+2025-07-05 23:13:43,751 - INFO - Generated aggregate for COIN: $88.43 (O:85.77 H:89.10 L:84.80 C:88.43)
+2025-07-05 23:13:45,617 - INFO - Generated aggregate for AAPL: $179.01 (O:180.05 H:180.16 L:178.53 C:179.01)
+2025-07-05 23:13:45,618 - INFO - Generated aggregate for MSFT: $378.56 (O:377.33 H:378.94 L:377.18 C:378.56)
+2025-07-05 23:13:45,619 - INFO - Generated aggregate for GOOGL: $131.47 (O:132.59 H:132.91 L:131.06 C:131.47)
+2025-07-05 23:13:45,620 - INFO - Generated aggregate for AMZN: $148.54 (O:148.88 H:148.91 L:148.42 C:148.54)
+2025-07-05 23:13:45,621 - INFO - Generated aggregate for TSLA: $270.66 (O:264.15 H:272.14 L:264.02 C:270.66)
+2025-07-05 23:13:45,622 - INFO - Generated aggregate for NVDA: $849.10 (O:846.79 H:849.16 L:846.57 C:849.10)
+2025-07-05 23:13:45,622 - INFO - Generated aggregate for META: $322.62 (O:320.66 H:323.15 L:320.56 C:322.62)
+2025-07-05 23:13:45,623 - INFO - Generated aggregate for NFLX: $419.72 (O:420.37 H:420.55 L:419.63 C:419.72)
+2025-07-05 23:13:45,624 - INFO - Generated aggregate for RBLX: $37.51 (O:37.16 H:37.62 L:37.11 C:37.51)
+2025-07-05 23:13:45,625 - INFO - Generated aggregate for COIN: $88.77 (O:88.43 H:88.92 L:88.43 C:88.77)
+2025-07-05 23:13:45,626 - INFO - Stats: Generated 140 messages, Published 140 updates
+2025-07-05 23:13:45,626 - INFO - Kafka: 131 success, 0 errors
+2025-07-05 23:13:45,627 - INFO - Current prices: [('AAPL', '$179.01'), ('MSFT', '$378.56'), ('GOOGL', '$131.47')]
+2025-07-05 23:13:47,379 - INFO - Generated aggregate for AAPL: $180.23 (O:179.01 H:180.75 L:178.78 C:180.23)
+2025-07-05 23:13:47,380 - INFO - Generated aggregate for MSFT: $379.77 (O:378.56 H:379.98 L:378.46 C:379.77)
+2025-07-05 23:13:47,381 - INFO - Generated aggregate for GOOGL: $129.70 (O:131.47 H:132.02 L:129.18 C:129.70)
+2025-07-05 23:13:47,382 - INFO - Generated aggregate for AMZN: $149.77 (O:148.54 H:149.90 L:148.27 C:149.77)
+2025-07-05 23:13:47,382 - INFO - Generated aggregate for TSLA: $264.63 (O:270.66 H:270.77 L:262.70 C:264.63)
+2025-07-05 23:13:47,383 - INFO - Generated aggregate for NVDA: $842.51 (O:849.10 H:850.40 L:841.76 C:842.51)
+2025-07-05 23:13:47,385 - INFO - Generated aggregate for META: $323.77 (O:322.62 H:323.87 L:322.11 C:323.77)
+2025-07-05 23:13:47,385 - INFO - Generated aggregate for NFLX: $423.66 (O:419.72 H:425.46 L:419.47 C:423.66)
+2025-07-05 23:13:47,386 - INFO - Generated aggregate for RBLX: $38.61 (O:37.51 H:39.07 L:37.02 C:38.61)
+2025-07-05 23:13:47,387 - INFO - Generated aggregate for COIN: $83.47 (O:88.77 H:89.40 L:80.89 C:83.47)
+2025-07-05 23:13:49,264 - INFO - Successfully delivered 150 messages to Kafka
+2025-07-05 23:13:49,264 - INFO - Generated aggregate for AAPL: $180.39 (O:180.23 H:180.39 L:180.20 C:180.39)
+2025-07-05 23:13:49,264 - INFO - Generated aggregate for MSFT: $379.38 (O:379.77 H:379.90 L:379.20 C:379.38)
+2025-07-05 23:13:49,264 - INFO - Generated aggregate for GOOGL: $129.74 (O:129.70 H:129.74 L:129.69 C:129.74)
+2025-07-05 23:13:49,267 - INFO - Generated aggregate for AMZN: $150.40 (O:149.77 H:150.59 L:149.71 C:150.40)
+2025-07-05 23:13:49,267 - INFO - Generated aggregate for TSLA: $266.48 (O:264.63 H:266.59 L:263.93 C:266.48)
+2025-07-05 23:13:49,267 - INFO - Generated aggregate for NVDA: $846.51 (O:842.51 H:848.00 L:840.92 C:846.51)
+2025-07-05 23:13:49,267 - INFO - Generated aggregate for META: $331.39 (O:323.77 H:334.31 L:320.33 C:331.39)
+2025-07-05 23:13:49,267 - INFO - Generated aggregate for NFLX: $419.23 (O:423.66 H:425.49 L:418.43 C:419.23)
+2025-07-05 23:13:49,267 - INFO - Generated aggregate for RBLX: $38.66 (O:38.61 H:38.68 L:38.60 C:38.66)
+2025-07-05 23:13:49,267 - INFO - Generated aggregate for COIN: $82.49 (O:83.47 H:83.54 L:82.12 C:82.49)
+2025-07-05 23:13:49,267 - INFO - Stats: Generated 160 messages, Published 160 updates
+2025-07-05 23:13:49,267 - INFO - Kafka: 151 success, 0 errors
+2025-07-05 23:13:49,267 - INFO - Current prices: [('AAPL', '$180.39'), ('MSFT', '$379.38'), ('GOOGL', '$129.74')]
+2025-07-05 23:13:51,033 - INFO - Generated aggregate for AAPL: $178.94 (O:180.39 H:180.96 L:178.58 C:178.94)
+2025-07-05 23:13:51,034 - INFO - Generated aggregate for MSFT: $382.37 (O:379.38 H:383.84 L:378.70 C:382.37)
+2025-07-05 23:13:51,035 - INFO - Generated aggregate for GOOGL: $130.28 (O:129.74 H:130.43 L:129.66 C:130.28)
+2025-07-05 23:13:51,036 - INFO - Generated aggregate for AMZN: $152.16 (O:150.40 H:152.76 L:150.08 C:152.16)
+2025-07-05 23:13:51,037 - INFO - Generated aggregate for TSLA: $265.99 (O:266.48 H:266.69 L:265.86 C:265.99)
+2025-07-05 23:13:51,038 - INFO - Generated aggregate for NVDA: $869.18 (O:846.51 H:876.85 L:843.67 C:869.18)
+2025-07-05 23:13:51,039 - INFO - Generated aggregate for META: $336.33 (O:331.39 H:338.06 L:329.10 C:336.33)
+2025-07-05 23:13:51,039 - INFO - Generated aggregate for NFLX: $415.46 (O:419.23 H:420.25 L:414.24 C:415.46)
+2025-07-05 23:13:51,040 - INFO - Generated aggregate for RBLX: $39.43 (O:38.66 H:39.70 L:38.31 C:39.43)
+2025-07-05 23:13:51,041 - INFO - Generated aggregate for COIN: $87.09 (O:82.49 H:87.31 L:81.89 C:87.09)
+2025-07-05 23:13:52,101 - INFO - Generated aggregate for AAPL: $181.27 (O:178.94 H:181.56 L:178.30 C:181.27)
+2025-07-05 23:13:52,102 - INFO - Generated aggregate for MSFT: $384.39 (O:382.37 H:384.99 L:381.80 C:384.39)
+2025-07-05 23:13:52,103 - INFO - Generated aggregate for GOOGL: $129.56 (O:130.28 H:130.51 L:129.25 C:129.56)
+2025-07-05 23:13:52,104 - INFO - Generated aggregate for AMZN: $156.72 (O:152.16 H:157.70 L:151.96 C:156.72)
+2025-07-05 23:13:52,105 - INFO - Generated aggregate for TSLA: $264.55 (O:265.99 H:266.35 L:264.48 C:264.55)
+2025-07-05 23:13:52,106 - INFO - Generated aggregate for NVDA: $847.94 (O:869.18 H:878.19 L:843.65 C:847.94)
+2025-07-05 23:13:52,107 - INFO - Generated aggregate for META: $339.29 (O:336.33 H:339.61 L:335.11 C:339.29)
+2025-07-05 23:13:52,108 - INFO - Generated aggregate for NFLX: $414.09 (O:415.46 H:416.05 L:413.89 C:414.09)
+2025-07-05 23:13:52,109 - INFO - Generated aggregate for RBLX: $39.51 (O:39.43 H:39.52 L:39.43 C:39.51)
+2025-07-05 23:13:52,109 - INFO - Generated aggregate for COIN: $90.58 (O:87.09 H:91.63 L:85.60 C:90.58)
+2025-07-05 23:13:52,110 - INFO - Stats: Generated 180 messages, Published 180 updates
+2025-07-05 23:13:52,111 - INFO - Kafka: 171 success, 0 errors
+2025-07-05 23:13:52,111 - INFO - Current prices: [('AAPL', '$181.27'), ('MSFT', '$384.39'), ('GOOGL', '$129.56')]
+2025-07-05 23:13:53,837 - INFO - Generated aggregate for AAPL: $181.33 (O:181.27 H:181.35 L:181.27 C:181.33)
+2025-07-05 23:13:53,837 - INFO - Generated aggregate for MSFT: $379.93 (O:384.39 H:385.02 L:377.81 C:379.93)
+2025-07-05 23:13:53,838 - INFO - Generated aggregate for GOOGL: $129.86 (O:129.56 H:129.92 L:129.53 C:129.86)
+2025-07-05 23:13:53,839 - INFO - Generated aggregate for AMZN: $159.63 (O:156.72 H:160.56 L:155.37 C:159.63)
+2025-07-05 23:13:53,840 - INFO - Generated aggregate for TSLA: $270.70 (O:264.55 H:272.38 L:262.68 C:270.70)
+2025-07-05 23:13:53,840 - INFO - Generated aggregate for NVDA: $846.32 (O:847.94 H:848.06 L:846.29 C:846.32)
+2025-07-05 23:13:53,840 - INFO - Generated aggregate for META: $337.62 (O:339.29 H:339.54 L:337.12 C:337.62)
+2025-07-05 23:13:53,841 - INFO - Generated aggregate for NFLX: $409.50 (O:414.09 H:414.81 L:409.35 C:409.50)
+2025-07-05 23:13:53,841 - INFO - Generated aggregate for RBLX: $39.61 (O:39.51 H:39.63 L:39.49 C:39.61)
+2025-07-05 23:13:53,842 - INFO - Generated aggregate for COIN: $91.07 (O:90.58 H:91.11 L:90.43 C:91.07)
+2025-07-05 23:13:54,444 - INFO - === 30-Second Stats Report ===
+2025-07-05 23:13:54,445 - INFO - Runtime: 0:00:30.742505
+2025-07-05 23:13:54,445 - INFO - Messages generated: 190
+2025-07-05 23:13:54,446 - INFO - Messages published: 190
+2025-07-05 23:13:54,447 - INFO - Kafka success: 181
+2025-07-05 23:13:54,447 - INFO - Kafka errors: 0
+2025-07-05 23:13:54,447 - INFO - Current prices: [('AAPL', '$181.33'), ('MSFT', '$379.93'), ('GOOGL', '$129.86'), ('AMZN', '$159.63'), ('TSLA', '$270.70'), ('NVDA', '$846.32'), ('META', '$337.62'), ('NFLX', '$409.50'), ('RBLX', '$39.61'), ('COIN', '$91.07')]
+2025-07-05 23:13:54,448 - INFO - ============================
+2025-07-05 23:13:55,541 - INFO - Market data generation stopped by user
+2025-07-05 23:13:55,542 - INFO - Shutting down...
+2025-07-05 23:13:55,548 - INFO - Total generated: 190
+2025-07-05 23:13:55,549 - INFO - Total published: 190
+2025-07-05 23:13:55,549 - INFO - Kafka success: 191
+2025-07-05 23:13:55,549 - INFO - Kafka errors: 0
+2025-07-05 23:13:55,550 - INFO - Final prices:
+2025-07-05 23:13:55,550 - INFO -   AAPL: $181.33 (+6.33, +3.6%)
+2025-07-05 23:13:55,551 - INFO -   MSFT: $379.93 (-0.07, -0.0%)
+2025-07-05 23:13:55,551 - INFO -   GOOGL: $129.86 (-5.14, -3.8%)
+2025-07-05 23:13:55,551 - INFO -   AMZN: $159.63 (+14.63, +10.1%)
+2025-07-05 23:13:55,552 - INFO -   TSLA: $270.70 (+20.70, +8.3%)
+2025-07-05 23:13:55,552 - INFO -   NVDA: $846.32 (-53.68, -6.0%)
+2025-07-05 23:13:55,552 - INFO -   META: $337.62 (+17.62, +5.5%)
+2025-07-05 23:13:55,553 - INFO -   NFLX: $409.50 (-40.50, -9.0%)
+2025-07-05 23:13:55,553 - INFO -   RBLX: $39.61 (+4.61, +13.2%)
+2025-07-05 23:13:55,553 - INFO -   COIN: $91.07 (+6.07, +7.1%)

@@ -1,0 +1,20 @@
+[project]
+name = "data-expert-capstone"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.9.0",
+    "coinbase-advanced-py>=1.8.2",
+    "confluent-kafka>=2.3.0",
+    "kafka-python>=2.0.2",
+    "numpy>=2.3.1",
+    "polygon-api-client>=1.14.6",
+    "psycopg2-binary>=2.9.10",
+    "python-dotenv>=1.0.0",
+    "pytz>=2025.2",
+    "redis>=5.0.0",
+    "requests>=2.31.0",
+    "websockets>=12.0",
+]
