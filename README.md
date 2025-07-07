@@ -15,15 +15,22 @@ Kafka serves a fault tolerant and independent layer between the websockets/apis 
 
 
 **TimescaleDB**
-The landing zone for data from our Kafka topics was TimescaleDB which I ultimately decided to utilize in this project because of its compatability with time-series data. Many databases struggle with high-throughput time series data natively. TimescaleDB solves this by automatically partitioning tables by time (hypertables), compressing old data, and providing time-series specific functions—all while maintaining full PostgreSQL compatibility. From the Kafka Topic, we utilize a Consumer to read data from the topic(s) into TimescaleDB hypertables, this base table is the main table that our main views our generated off of.  A suite of tests are ran on both the base table and the interim base views being generated with the final views being updated on a cadence of every 5 seconds with its continuous aggregate functions. Given TimescaleDB's optimization for time series data, queries are able to be run incredibly quickly every few seconds and sent to downstream processes. 
+The landing zone for data from our Kafka topics was TimescaleDB which I ultimately decided to utilize in this project because of its compatability with time-series data. Many databases struggle with high-throughput time series data natively. TimescaleDB solves this by automatically partitioning tables by time (hypertables), compressing old data, and providing time-series specific functions—all while maintaining full PostgreSQL compatibility. 
 
 ![jobs_timescale](https://github.com/user-attachments/assets/1925ac34-e5f9-4b89-9c25-1a88d4ae491d)
+
+From the Kafka Topic, we utilize a Consumer to read data from the topic(s) into TimescaleDB hypertables, this base table is the main table that our main views our generated off of.  A suite of tests are ran on both the base table and the interim base views being generated with the final views being updated on a cadence of every 5 seconds with its continuous aggregate functions. Given TimescaleDB's optimization for time series data, queries are able to be run incredibly quickly every few seconds and sent to downstream processes. 
+
+![image](https://github.com/user-attachments/assets/dfa8bfc4-046b-468e-8384-81b34660e469)
 
 **Grafana**
 For visualizations, Grafana was chosen because of its compatability with time series data and also its ease of connection with TimescaleDB databases and tables and its ability to refresh every 1-5s depending on the version being utilized. 
 
 
 
-**Grafana Dashboard**
 (https://github.com/user-attachments/assets/febdd9fc-595d-4144-923e-ff0e8df5902b)
+
+
+**What's Next**
+I hope to expand on this project in the coming week by implementing data transformations outside of SQL transformations in TimeScale such as Flink or Spark streaming. I also hope to utilize Terraform to set up the environment for this. 
 
