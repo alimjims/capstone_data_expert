@@ -21,5 +21,5 @@ For visualizations, Grafana was chosen because of its compatability with time se
 
 
 **Grafana Dashboard**
-DB ![image](https://github.com/user-attachments/assets/febdd9fc-595d-4144-923e-ff0e8df5902b)
+(https://github.com/user-attachments/assets/febdd9fc-595d-4144-923e-ff0e8df5902b)
 
