@@ -14,10 +14,11 @@ Kafka serves a fault tolerant and independent layer between the websockets/apis 
 
 ![confluent_kafka](https://github.com/user-attachments/assets/c2e59095-6108-4559-92c2-460877574080)
 
+In Kafka, we are able to specify and enforce schema and seperate incoming data by topics and partitions. There is also the functionality to use kSQLDB and Tableflow for data enrichment purposes but for the purposes of this project these functionalities were not used but instead data processing was done downstream in TimescaleDB.
 
 **TimescaleDB**
 
-The landing zone for data from our Kafka topics was TimescaleDB which I ultimately decided to utilize in this project because of its compatability with time-series data. Many databases struggle with high-throughput time series data natively. TimescaleDB solves this by automatically partitioning tables by time (hypertables), compressing old data, and providing time-series specific functions—all while maintaining full PostgreSQL compatibility. 
+The landing zone for data from our Kafka topics was TimescaleDB which I ultimately decided to utilize in this project because of its compatability with time-series data. Many databases struggle with high-throughput time series data natively. TimescaleDB solves this by automatically partitioning tables by time (hypertables), compressing old data, and providing time-series specific functions—all while maintaining full PostgreSQL compatibility. Running jobs and various SQL compatabilities allowed for data quality cleaning, deduplication and alignment across time intervals allowing for the final downstream tables to 
 
 ![jobs_timescale](https://github.com/user-attachments/assets/1925ac34-e5f9-4b89-9c25-1a88d4ae491d)
 
@@ -27,13 +28,12 @@ From the Kafka Topic, we utilize a Consumer to read data from the topic(s) into 
 
 **Grafana**
 
-For visualizations, Grafana was chosen because of its compatability with time series data and also its ease of connection with TimescaleDB databases and tables and its ability to refresh every 1-5s depending on the version being utilized. 
+For visualizations, Grafana was chosen because of its compatability with time series data and also its ease of connection with TimescaleDB databases and tables and its ability to refresh every 1-5s depending on the version being utilized. The final Dashboard allows the user the capability to track common metrics such as close price while more importantly, track custom metrics not commonly found i
 
-
-
-(https://github.com/user-attachments/assets/febdd9fc-595d-4144-923e-ff0e8df5902b)
+![Grafana](https://github.com/user-attachments/assets/a7fae1ef-ad17-45e3-96c2-033a5710008f)
 
 
 **What's Next**
+
 I hope to expand on this project in the coming week by implementing data transformations outside of SQL transformations in TimeScale such as Flink or Spark streaming. I also hope to utilize Terraform to set up the environment for this. 
 
