@@ -1,8 +1,12 @@
-**Data Expert Capstone: Real Time Stock Streaming Project***
+**Data Expert Capstone: Real Time Stock Streaming Project**
+
+GitHUB Link: https://github.com/alimjims/capstone_data_expert
 
 As part of my continued learning journey, I wanted to expand on my working knowledge of streaming pipelines, the common tools and their uses cases. 
 
 This project makes use of Polygon.io's Websocket for public market stocks that provides a steady stream of stock data on multiple different time aggregates and dimensions when markets are open, the API also provides historical data for more batch related projects if needed. For testing during off market hours, a dummy stock data generator that mimics the behavior of Polygon.io's websocket was made as the websocket for aggregates was not available at all hours.
+
+
 
 Ultimately the goal was to see how we can generate custom metrics that are not readily available from APIs not only on a one off basis, but on a repeatable basis while also handling a stream of data. When analyzing securities of any type, generating alpha or uncorrelated returns generally requires you to cut and slice data in ways that are not always straightforward to pull from available datasources and data streams. This project was meant to broaden my skillsets by developing a pipeline that utilizes essentialy streaming technologies with datasets in a context I was unfamiliar.
 
