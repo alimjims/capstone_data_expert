@@ -26,6 +26,11 @@ From the Kafka Topic, we utilize a Consumer to read data from the topic(s) into 
 
 ![image](https://github.com/user-attachments/assets/dfa8bfc4-046b-468e-8384-81b34660e469)
 
+I was surprised at how efficiently the scheduled jobs were able to run at the cadence and frequency I needed for them to be run while also handling high throughput of data from the Polygon.io Websocket. However for future iterations of this project, scaling up the curen
+
+![monitoring_timescale](https://github.com/user-attachments/assets/0b7c8e99-7f86-41d4-92e3-a239e115e4dc) 
+
+
 **Grafana**
 
 For visualizations, Grafana was chosen because of its compatability with time series data and also its ease of connection with TimescaleDB databases and tables and its ability to refresh every 1-5s depending on the version being utilized. The final Dashboard allows the user the capability to track common metrics such as close price while more importantly, track custom metrics not commonly found i
