@@ -26,7 +26,7 @@ From the Kafka Topic, we utilize a Consumer to read data from the topic(s) into 
 
 ![image](https://github.com/user-attachments/assets/dfa8bfc4-046b-468e-8384-81b34660e469)
 
-I was surprised at how efficiently the scheduled jobs were able to run at the cadence and frequency I needed for them to be run while also handling high throughput of data from the Polygon.io Websocket. However for future iterations of this project, scaling up the curen
+I was surprised at how efficiently the scheduled jobs were able to run at the cadence and frequency I needed for them to be run while also handling high throughput of data from the Polygon.io Websocket. However for future iterations of this project, as the project growns and the size of the data grows, the cluster will likely have to be scaled up incurring more cost or other storage systems will have to be considered. 
 
 ![monitoring_timescale](https://github.com/user-attachments/assets/0b7c8e99-7f86-41d4-92e3-a239e115e4dc) 
 
