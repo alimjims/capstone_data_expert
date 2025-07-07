@@ -9,12 +9,14 @@ Ultimately the goal was to see how we can generate custom metrics that are not r
 The technologies utilized downstream for handling this streaming data are Kafka and TimescaleDB and Grafana was utilized as the visualization layer. 
 
 **Confluent Kafka**
+
 Kafka serves a fault tolerant and independent layer between the websockets/apis and the consumers the pipeline has downstream, allowing for high-throughput data streams and scaling. While there was not neccesarily a need for Kafka here given that we dont have a large amount of consumers currently reading the data, as this project grows, Kafka and Confluent will also for smooth scaling of this project while also allowing for the different modules to remain decoupled from each other. 
 
 ![confluent_kafka](https://github.com/user-attachments/assets/c2e59095-6108-4559-92c2-460877574080)
 
 
 **TimescaleDB**
+
 The landing zone for data from our Kafka topics was TimescaleDB which I ultimately decided to utilize in this project because of its compatability with time-series data. Many databases struggle with high-throughput time series data natively. TimescaleDB solves this by automatically partitioning tables by time (hypertables), compressing old data, and providing time-series specific functions—all while maintaining full PostgreSQL compatibility. 
 
 ![jobs_timescale](https://github.com/user-attachments/assets/1925ac34-e5f9-4b89-9c25-1a88d4ae491d)
@@ -24,6 +26,7 @@ From the Kafka Topic, we utilize a Consumer to read data from the topic(s) into 
 ![image](https://github.com/user-attachments/assets/dfa8bfc4-046b-468e-8384-81b34660e469)
 
 **Grafana**
+
 For visualizations, Grafana was chosen because of its compatability with time series data and also its ease of connection with TimescaleDB databases and tables and its ability to refresh every 1-5s depending on the version being utilized. 
 
 
